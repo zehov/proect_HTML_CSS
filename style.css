@@ -1,0 +1,148 @@
+ html{
+	 padding:0;
+	 margin:0;
+ }
+ 
+ 
+ 
+ header   {
+    font-family: Verdana ,Ariel;
+    font-size: 36px;
+	background-color: #FF80FF;
+	text-align:center;
+	border:2px solid #0000FF;
+	border-radius: 6px;
+	text-shadow: 5px 5px #fff;
+	font-weight:bold;
+
+}
+
+ footer {
+    padding: 10px;
+    color: white;
+    background-color: #E900AB;
+	text-align:center;
+}
+
+section {
+    margin: 5px;
+    padding: 10px;
+    background-color: #16EBC5;
+	font-family: Verdana ,Ariel;
+    font-size: 16px;
+}
+
+article {
+    margin: 5px;
+    padding: 10px;
+    background-color: #01fe66;
+}
+
+nav ul {
+    padding:10px;
+	text-align:right;
+	background-color:#FFFF80;
+}
+
+nav ul li {
+    display: inline;
+    margin: 15px;
+	padding:6px;
+}
+nav a{
+	text-decoration:none;	
+	font-size:18px;
+	color:#800080;
+	border-left:2px solid #FF0000;
+	border-right:2px solid #FF0000;
+	padding:10px;
+}
+nav a:hover {
+    background-color: #80FF80;
+}
+nav a:visited {
+    background-color: #FF0000;
+}
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+	
+}
+div.img1 {
+    margin-left: 35%;
+    width: 40%;	
+}
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 5%;
+    text-align: center;
+	background-color:#000;
+	color:#fff;
+	width: 51%;
+	height: auto;
+	
+}
+div.img a {
+	display: inline-block;
+    width: 30%;
+    height: auto;
+    margin: 10px;
+    border: 3px solid #73AD21;  
+	
+}
+span{
+	font-size:18px;
+	font-weight:bold;
+	font-family:verdana ,ariel;
+	color:#ff0000;
+	margin-left:10%;
+}
+div.terms {
+	font-size:14px;
+    color:#800080;
+    border:none;
+    font-style: italic;	
+}
+
+input[type=submit]{
+	background-color: #808080;
+    border: 3px solid;
+    color: #000;
+    padding: 5px 10px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+	font-size:20px;
+	font-family:Verdana ,Ariel;
+}
+.flex-container {
+	position:relative;
+	top:30%;
+	display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    height: auto;
+	background-color:#808080;
+  
+}
+
+.flex-item {
+    width: 30%;
+    height: auto;
+    margin: 0px;
+	text-align:center;
+	padding-top:5%;
+	padding-left:5%;
+	padding-right:5%;
+	box-shadow: 1px;
+	font-size:14px;
+	
+	
+	
+}
+   
